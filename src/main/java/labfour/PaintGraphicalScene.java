@@ -20,5 +20,8 @@ public class PaintGraphicalScene extends JApplet {
 
   public void paint(Graphics page) {
 
+    // TODO: Add in new source code to meet the project's requirments
+    // Please see the README file and the laboratory assignment sheet
+
   }
 }
