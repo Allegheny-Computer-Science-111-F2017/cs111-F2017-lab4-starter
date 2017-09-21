@@ -18,6 +18,7 @@ public class DisplayGraphicalScene {
   private static final int CANVAS_HEIGHT = 400;
 
   public static void main(String[] args) {
+    // create a JFrame that will have programmer's name and date
     JFrame window = new JFrame("Gregory M. Kapfhammer " + new Date());
     // Add the drawing canvas and do necessary things to
     // make the window appear on the screen
