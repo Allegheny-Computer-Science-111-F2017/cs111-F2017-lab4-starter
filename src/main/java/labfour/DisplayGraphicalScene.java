@@ -23,9 +23,9 @@ public class DisplayGraphicalScene {
     // make the window appear on the screen
     window.getContentPane().add(new PaintGraphicalScene());
     window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    // make the window visible on the computer screen
+    // TODO: make the window visible on the computer screen
 
-    // set the size of the window that the program displays
+    // TODO: set the size of the window that the program displays
 
   }
 }
