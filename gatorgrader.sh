@@ -207,7 +207,7 @@ if [ "$CHECK" = true ]; then
   determine_exit_code $?
   # --> GatorGrader CHECK: the "int" fragment exists in the code at least two times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labfour \
-                                     --checkfiles PaintGraphicalScene.java --fragments "int" --fragmentcounts 4
+                                     --checkfiles PaintGraphicalScene.java --fragments "int " --fragmentcounts 4
   determine_exit_code $?
   # --> GatorGrader CHECK: the reflection contains at least 2 paragraphs
   python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 2
